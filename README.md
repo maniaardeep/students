@@ -20,18 +20,3 @@ This project connects to a **MongoDB** database, retrieves student data from the
 
 ---
 
-## 🗂️ Project Structure
-
-```bash
-📦 students-database-project
-│
-├── .env                        # MongoDB connection credentials
-├── app.py                      # Main runner
-├── requirements.txt             # Dependencies
-│
-└── src/
-    └── mlproject/
-        ├── utils.py             # MongoDB connection and data loading
-        ├── logger.py            # Logging configuration
-        ├── exception.py         # Custom exception class
-        └── __init__.py
